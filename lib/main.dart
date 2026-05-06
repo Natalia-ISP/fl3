@@ -8,7 +8,7 @@ void main() {
     MaterialApp(
       debugShowCheckedModeBanner: false,
       home: (Scaffold(
-        body: GradientConteiner(Colors.white, Colors.blue, Colors.red),
+        body: GradientLinear(Colors.white, Colors.blue, Colors.red),
       )),
     ),
   );

@@ -4,19 +4,23 @@ import 'package:flutter_lab3_app/styled_text.dart';
 const startAlignment = Alignment.topCenter;
 const endAlignment = Alignment.bottomCenter;
 
-class GradientConteiner extends StatelessWidget {
+class GradientLinear extends StatelessWidget {
+  var activeDiceImage = 'assets/images/dice-1.png';
   final Color color1;
   final Color color2;
   final Color color3;
 
-  const GradientConteiner(
+  GradientLinear(
     this.color1,
     this.color2,
     this.color3, {
     super.key,
   });
 
-  void rollDice() {}
+  void rollDice() {
+    activeDiceImage = 'assets/images/dice-4.png';
+    print('изменили картинку');
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -33,7 +37,7 @@ class GradientConteiner extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             Image.asset(
-              'assets/images/dice-1.png',
+              activeDiceImage,
               width: 300,
             ),
             TextButton(
