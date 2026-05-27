@@ -1,17 +1,12 @@
-# flutter_lab3_app
+# Лабораторная работа №3. Flutter: структура UI и компонентный подход
 
-A new Flutter project.
+**ФИО**: Пономарёва Наталья Андреевна
+**Группа**: ИСП-232
+**Дата**: 06.05.2026
 
-## Getting Started
+### Описание
+Научились строить UI через дерево виджетов, создавать собственные виджеты-классы, разбивать код на файлы и передавать данные через параметры.
 
-This project is a starting point for a Flutter application.
+### Скриншот
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![приложние](Flutter_Lab3\img\step5_Ponomareva.png)
